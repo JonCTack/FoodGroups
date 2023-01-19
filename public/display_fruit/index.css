@@ -1,0 +1,31 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    max-width: 20vw;
+}
+.inputcontain {
+    display: flex;
+    flex-direction: column;
+    max-width: 20vw;
+    margin: 1vh;
+}
+.gone{
+    display: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    display:flex;
+    justify-content: space-between;
+    max-width: 30vw;
+    
+}
+
+#navbar h1 {
+    text-align: center;
+    background-color: antiquewhite;
+    margin: .5vw;
+}
